@@ -1,0 +1,13 @@
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.csprojAssemblyReference.cache
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.AssemblyInfoInputs.cache
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.AssemblyInfo.cs
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.csproj.CoreCompileInputs.cache
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.exe
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.deps.json
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.runtimeconfig.json
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.runtimeconfig.dev.json
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.dll
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\bin\Debug\netcoreapp3.1\PocketNET.pdb
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.dll
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.pdb
+C:\Users\Jose Luis\Downloads\Servidor\PocketNET\PocketNET\PocketNET\obj\Debug\netcoreapp3.1\PocketNET.genruntimeconfig.cache
