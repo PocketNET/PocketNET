@@ -25,6 +25,10 @@ $ TODO
 This project is currently work in progress and is not currently functional. If you have questions, come and ask them in our [Discord chat](https://discord.gg/2ZsXumM) instead of opening issues.
 <!--If you have an issue, please make sure to check the [FAQs](https://github.com/PocketNET/PocketNET/wiki/FAQs) page before opening any issues. We are constantly fixing issues and are continuously updating, so please also ensure that you are up-to-date before opening any issues.-->
 
+### Can I contribute to the project?
+
+The answer is yes, create a fork and make the changes, then just request a Pull Request (PR) and a member of the development team will review the request. Thanks for contributing!
+
 ### Licence
 We're licensed under the GNU GPLv3, here's your copy:
 
