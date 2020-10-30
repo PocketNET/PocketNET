@@ -1,4 +1,4 @@
-PocketNET [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() <iframe src="https://discordapp.com/widget?id=771242614736814090&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+PocketNET [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)
 ======
 **A Minecraft: PE server software written in C#*
 <img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="250" width="250">
