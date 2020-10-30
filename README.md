@@ -9,7 +9,7 @@ We aim to provide a full-featured, high performance MCPE server to provide the c
 - Customizable features and behaviour in the form of optional extension modules and a powerful plugin API
 
 ### Planned features
-- CSharp plugin system
+- C# plugin system
 - Threaded RakLib with deadlock security
 - Parts written as C extensions for maximum speed
 - LevelDB world saving/loading
