@@ -1,5 +1,4 @@
 ﻿using System;
-using PocketNET.Core.Binary;
 using PocketNET.Core.Config;
 
 namespace PocketNET
@@ -10,7 +9,18 @@ namespace PocketNET
         {
             YamlConfig config = new YamlConfig(@"C:\Users\Jose Luis\Downloads\Servidor/config.yml");
 
-            Console.WriteLine(config.GetString("Jose"));
+            var list = new System.Collections.Generic.List<object>();
+            list.Add("hi");
+            list.Add("hi2");
+            list.Add("hi3");
+
+            config.SetList("Jose3", list);
+            config.Save();
+
+
+            var print = config.GetList("Jose3");
+
+            Console.WriteLine(print.Get(0));
         }
     }
 }

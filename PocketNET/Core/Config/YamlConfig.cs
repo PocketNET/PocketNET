@@ -1,4 +1,5 @@
-﻿using PocketNET.Core.Utils;
+﻿using PocketNET.Core.Config.Helper;
+using PocketNET.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -212,6 +213,18 @@ namespace PocketNET.Core.Config
             return _config[key];
         }
 
+        public ConfigListHelper GetList(string key)
+        {
+            if (!_config.ContainsKey(key))
+            {
+                Logger.Warning("Config: Object [key:" + key + "] not found in " + route);
+
+                return null;
+            }
+
+            return new ConfigListHelper(GetString(key));
+        }
+
         public Dictionary<string, object> GetAll()
         {
             return _config;
@@ -229,6 +242,11 @@ namespace PocketNET.Core.Config
             _config[key] = value;
         }
 
+        public void SetList(string key, List<object> value)
+        {
+            Set(key, (new ConfigListHelper(value)).Build());
+        }
+
         public bool Remove(string key)
         {
             if (_config.ContainsKey(key)) return false;
@@ -236,6 +254,16 @@ namespace PocketNET.Core.Config
             _config.Remove(key);
 
             return true;
+        }
+
+        public void Clear()
+        {
+            _config.Clear();
+        }
+
+        public int Count()
+        {
+            return _config.Count;
         }
 
         public bool Contains(string key)
