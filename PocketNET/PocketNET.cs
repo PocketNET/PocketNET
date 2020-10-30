@@ -1,5 +1,6 @@
 ﻿using System;
 using PocketNET.Core.Binary;
+using PocketNET.Core.Config;
 
 namespace PocketNET
 {
@@ -7,16 +8,9 @@ namespace PocketNET
     {
         static void Main(string[] args)
         {
-            BinaryStream stream = new BinaryStream();
+            YamlConfig config = new YamlConfig(@"C:\Users\Jose Luis\Downloads\Servidor/config.yml");
 
-            stream.PutByte(0x2d);
-            stream.PutBool(true);
-            stream.PutFloat((float)8.1);
-
-            Console.WriteLine("Buffer: " + BitConverter.ToString(stream.GetBuffer()));
-            Console.WriteLine("Byte: " + stream.GetByte());
-            Console.WriteLine("Bool: " + stream.GetBool());
-            Console.WriteLine("FLoat: " + stream.GetFloat());
+            Console.WriteLine(config.GetString("Jose"));
         }
     }
 }

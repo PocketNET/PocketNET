@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj": {}
+    "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj": {
+    "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj",
+        "projectUniqueName": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj",
         "projectName": "PocketNET",
-        "projectPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj",
+        "projectPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj",
         "packagesPath": "C:\\Users\\Jose Luis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\obj\\",
+        "outputPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jose Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

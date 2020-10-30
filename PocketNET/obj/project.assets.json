@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "YamlDotNet/8.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/YamlDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/YamlDotNet.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "YamlDotNet/8.1.2": {
+      "sha512": "GlPKbb4l+91dyYVKV7UnJlr2CWooNNM1ayZWC90QAmlFPgbwSkfhgId7dGjTAHqkB84BZqjMSy5PlAYf1iejVA==",
+      "type": "package",
+      "path": "yamldotnet/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/YamlDotNet.dll",
+        "lib/net20/YamlDotNet.xml",
+        "lib/net35-client/YamlDotNet.dll",
+        "lib/net35-client/YamlDotNet.xml",
+        "lib/net35/YamlDotNet.dll",
+        "lib/net35/YamlDotNet.xml",
+        "lib/net45/YamlDotNet.dll",
+        "lib/net45/YamlDotNet.xml",
+        "lib/netstandard1.3/YamlDotNet.dll",
+        "lib/netstandard1.3/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.8.1.2.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "YamlDotNet >= 8.1.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Jose Luis\\.nuget\\packages\\": {}
@@ -13,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj",
+      "projectUniqueName": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj",
       "projectName": "PocketNET",
-      "projectPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj",
+      "projectPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj",
       "packagesPath": "C:\\Users\\Jose Luis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\obj\\",
+      "outputPath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jose Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +80,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[8.1.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

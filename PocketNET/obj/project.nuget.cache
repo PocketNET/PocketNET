@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cVOb8qcQfYiXfoaFV2wbnis7xmB8EVrysnagNX0VbtOuCg1hzwMI1aurohncN4N/wNr8KPkRrw0NBuh6IdjYsw==",
+  "dgSpecHash": "NTIVUKwjn0u2UvQehDzt/hOW5RboIIfp1EgnnFDPxaUgIBgwC82gcWhpkpA/z2u79+s/uP1/h5uf3j3xE/mvUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET\\PocketNET.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jose Luis\\Downloads\\Servidor\\PocketNET\\PocketNET\\PocketNET.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jose Luis\\.nuget\\packages\\yamldotnet\\8.1.2\\yamldotnet.8.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
