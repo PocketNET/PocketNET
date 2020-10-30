@@ -1,6 +1,6 @@
 PocketNET [![CircleCI](https://img.shields.io/circleci/project/spiffy/spiffy.svg)]() [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)](https://img.shields.io/discord/771242614736814090?style=for-the-badge)
 ======
-**A Minecraft: PE server software written in CSharp**
+**A Minecraft: PE server software written in C#*
 <img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="250" width="250">
 ### Objectives
 We aim to provide a full-featured, high performance MCPE server to provide the complete online Minecraft experience. We aim to do anything that Realms can do, and more. Spiffy will be custom-designed around the client for a clean, fast, bug-free online Minecraft experience.
