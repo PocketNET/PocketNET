@@ -1,7 +1,7 @@
 <p align="center">
 	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"></img></a><br>
 	<b>A Minecraft: PE server software written in C#</b>
-	<img src=[![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]()>
+	<b href=[![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]()></b>
 	[![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)]()
 </p>
 ======
