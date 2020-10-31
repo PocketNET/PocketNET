@@ -1,7 +1,6 @@
 <p align="center">
-	<a href=""><img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"></a><br>
-	<b>PocketNET [![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]() [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)]()
-======</b>
+	<a><img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"></a><br>
+	<b>PocketNET [![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]() [![Discord](https://img.shields.io/discord/771242614736814090 style=for-the-badge)]()======</b>
 </p>
 
 # Objectives
