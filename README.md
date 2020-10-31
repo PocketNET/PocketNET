@@ -4,6 +4,7 @@
 </p>
 <div align="center">
 	<a href="https://discord.gg/2ZsXumM"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Discord"></a>
+	<a href=""><img src="https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg" alt="Passed"></a>
 </div>
 
 # Objectives
