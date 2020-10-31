@@ -1,7 +1,5 @@
-PocketNET [![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]() [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)]()
+<img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"> PocketNET [![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]() [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)]()
 ======
-<img align="right" src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="250" width="250">
-
 # Objectives
 We aim to provide a full-featured, high performance MCPE server to provide the complete online Minecraft experience. We aim to do anything that Realms can do, and more. Spiffy will be custom-designed around the client for a clean, fast, bug-free online Minecraft experience.
 - Full-featured MCPE game experience. We aim to make PocketNet the equal of or better than Server Partners in terms of gaming and features.
