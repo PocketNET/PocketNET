@@ -29,7 +29,7 @@ This project is currently work in progress and is not currently functional. If y
 
 The answer is yes, create a fork and make the changes, then just request a Pull Request (PR) and a member of the development team will review the request. Thanks for contributing!
 
-# Licence
+# Licensing information
 We're licensed under the GNU GPLv3, here's your copy:
 
 	This program is free software: you can redistribute it and/or modify
