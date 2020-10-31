@@ -14,13 +14,12 @@ We aim to provide a full-featured, high performance MCPE server to provide the c
 - Parts written as C extensions for maximum speed
 - LevelDB world saving/loading
 
-# Installation
+# How to setup?
 TODO
 ```sh
 $ TODO
 ```
-
-### Installation tutorial
+## Installation tutorial
 
 # Chat / Help & Support
 
