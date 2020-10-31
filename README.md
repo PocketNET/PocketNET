@@ -1,8 +1,8 @@
 <p align="center">
 	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png"></img></a><br>
-	<b>A highly customisable, open source server software for Minecraft: Bedrock Edition written in PHP</b>
-	[![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]() 
-	[![Discord](https://img.shields.io/discord/771242614736814090 style=for-the-badge)]()
+	<b>A highly customisable, open source server software for Minecraft: Bedrock Edition written in C#</b>
+	<b>[![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]()</b>
+	<b>[![Discord](https://img.shields.io/discord/771242614736814090 style=for-the-badge)]()</b>
 </p>
 
 # Objectives
