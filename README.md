@@ -1,5 +1,5 @@
 <p align="center">
-	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="240" width="240></img></a><br>
+	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="250" width="250"></img></a><br>
 	<b>A highly customisable, open source server software for Minecraft: Bedrock Edition written in C#</b>
 </p>
 		
