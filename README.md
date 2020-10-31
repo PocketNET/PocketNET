@@ -24,6 +24,7 @@ We aim to provide a full-featured, high performance MCPE server to provide the c
 $ TODO
 ```
 ### Installation tutorial
+`Coming soon`
 
 # Chat / Help & Support
 
