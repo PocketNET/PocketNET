@@ -1,9 +1,10 @@
 <p align="center">
 	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"></img></a><br>
 	<b>A Minecraft: PE server software written in C#</b>
-	======
-	<a href="https://discord.gg/2ZsXumM"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Discord"></a>
 </p>
+<div align="left">
+	<a href="https://discord.gg/2ZsXumM"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Discord"></a>
+</div>
 
 # Objectives
 We aim to provide a full-featured, high performance MCPE server to provide the complete online Minecraft experience. We aim to do anything that Realms can do, and more. Spiffy will be custom-designed around the client for a clean, fast, bug-free online Minecraft experience.
