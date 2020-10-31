@@ -15,11 +15,10 @@ We aim to provide a full-featured, high performance MCPE server to provide the c
 - LevelDB world saving/loading
 
 # How to setup?
-TODO
 ```sh
 $ TODO
 ```
-## Installation tutorial
+### Installation tutorial
 
 # Chat / Help & Support
 
