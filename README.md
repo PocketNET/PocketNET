@@ -4,7 +4,6 @@
 </p>
 
 [![CircleCI](https://circleci.com/gh/PocketNET/PocketNET.svg?style=svg)]()
-======
 [![Discord](https://img.shields.io/discord/771242614736814090?style=for-the-badge)]()
 ======
 
