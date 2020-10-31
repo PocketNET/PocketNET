@@ -20,6 +20,8 @@ TODO
 $ TODO
 ```
 
+### Installation tutorial
+
 ### Chat / Help & Support
 
 This project is currently work in progress and is not currently functional. If you have questions, come and ask them in our [Discord chat](https://discord.gg/2ZsXumM) instead of opening issues.
