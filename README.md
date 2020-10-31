@@ -2,7 +2,7 @@
 	<a><img src="https://github.com/PocketNET/PocketNET/blob/main/pocketnet_logo.png" height="150" width="150"></img></a><br>
 	<b>A Minecraft: PE server software written in C#</b>
 </p>
-<div align="left">
+<div align="center">
 	<a href="https://discord.gg/2ZsXumM"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Discord"></a>
 </div>
 
