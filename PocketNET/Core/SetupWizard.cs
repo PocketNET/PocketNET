@@ -36,6 +36,19 @@ namespace PocketNET.Core
         {
             do
             {
+                Console.WriteLine("This program is free software: you can redistribute it and/or modify");
+                Console.WriteLine("it under the terms of the GNU General Public License as published by");
+                Console.WriteLine("the Free Software Foundation, either version 3 of the License, or");
+                Console.WriteLine("(at your option) any later version.");
+                Console.WriteLine("");
+                Console.WriteLine("This program is distributed in the hope that it will be useful,");
+                Console.WriteLine("but WITHOUT ANY WARRANTY; without even the implied warranty of");
+                Console.WriteLine("MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the");
+                Console.WriteLine("GNU General Public License for more details.");
+                Console.WriteLine("");
+                Console.WriteLine("You should have received a copy of the GNU General Public License");
+                Console.WriteLine("along with this program.  If not, see <http://www.gnu.org/licenses/>.");
+
                 if (GetInput("Accept the license of use?", "n", "y/N") == "y") licence = true;
             }
             while (licence == false);
@@ -65,6 +78,12 @@ namespace PocketNET.Core
             config.Set("max-players", players);
 
             config.Save();
+
+            Console.ForegroundColor = ConsoleColor.Green;
+
+            Console.WriteLine("Configuration finished! Starting server, one moment please...");
+
+            Console.ResetColor();
         }
 
         private string GetInput(string message, string defaultInput = "", string options = "")
