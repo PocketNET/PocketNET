@@ -115,13 +115,15 @@ namespace PocketNET.Core.Binary
             });
         }
 
-        public static byte[] WriteTriad(int value)
+        public static sbyte[] WriteTriad(int value)
         {
-            return new byte[]{
-                (byte) ((value >> 16) & 0xFF), //falta un >
-                (byte) ((value >> 8) & 0xFF), //falta un >
-                (byte) (value & 0xFF)
-            };
+            sbyte first = (sbyte)(((uint)value >> 16) & 0xFF);
+            sbyte second = (sbyte)(((uint)value >> 8) & 0xFF);
+            sbyte thir = (sbyte)(value & 0xFF);
+
+            Console.WriteLine(thir); // esto ya retorna -65 pero el problema es que no si lo convetimos a byte cambia a 191
+
+            return new sbyte[] { first, second, thir };//TODO: LITEK check this an need return byte[] with the same values
         }
 
         public static int ReadLTriad(byte[] bytes)

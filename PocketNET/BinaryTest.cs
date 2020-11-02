@@ -11,9 +11,7 @@ namespace PocketNET
         {
             Binary binary = new Binary();
 
-            Console.WriteLine(Binary.WriteTriad(0xbf)[2]);
-            Console.WriteLine(Binary.WriteTriad(0xcf)[2]);
-            //Console.WriteLine(Binary.WriteTriad(0xff)[2]);
+            Console.WriteLine(Binary.WriteTriad(0xbf)[1]);
 
             // funciones que ya funcionan y dan los mismos resultad (https://github.com/PocketNET/BinaryData/blob/master/BinaryData.txt)
 

@@ -199,7 +199,7 @@ namespace PocketNET.Core.Binary
 
         public void PutTriad(int t)
         {
-            Put(Binary.WriteTriad(t));
+            //Put(Binary.WriteTriad(t));
         }
 
         public int GetLTriad()
