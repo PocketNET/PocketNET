@@ -16,7 +16,9 @@ namespace PocketNET
             Console.WriteLine(@" |____|   \____/ \___  >__|_ \\___  >__| \____|__  /_______  /  |____|  ");
             Console.WriteLine(@"                     \/     \/    \/             \/        \/            ");
 
-            string dataPath = GetDataPath();
+            new BinaryTest();
+
+            string dataPath = Directory.GetCurrentDirectory().Replace(@"PocketNET\PocketNET\bin\Debug\netcoreapp3.1", "") + "server/"; //In case of compiling from the idea remove the extra folders
 
             if (!Directory.Exists(dataPath)) Directory.CreateDirectory(dataPath);
 
@@ -40,19 +42,13 @@ namespace PocketNET
 
             do
             {
-                // start Server.cd soon
+                new Server(dataPath);
 
                 Logger.Info("PocketNET services stopped");
             }
             while (false);
 
             Environment.Exit(0);
-        }
-
-        public static string GetDataPath()
-        {
-            // In case of compiling from the idea remove the extra folders
-            return Directory.GetCurrentDirectory().Replace(@"PocketNET\PocketNET\bin\Debug\netcoreapp3.1", "") + "server/";
         }
     }
 }

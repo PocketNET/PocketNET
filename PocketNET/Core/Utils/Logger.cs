@@ -20,7 +20,7 @@ namespace PocketNET.Core.Utils
 
             string body = @"Crashdump: [" + name + "]\n\n[Error]: " + message;
 
-            string crashdumpRoute = PocketNET.GetDataPath() + "crashdumps/" + name + ".txt";
+            string crashdumpRoute = Server.GetInstance().GetDataPath() + "crashdumps/" + name + ".txt";
 
             try
             {

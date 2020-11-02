@@ -118,8 +118,8 @@ namespace PocketNET.Core.Binary
         public static byte[] WriteTriad(int value)
         {
             return new byte[]{
-                (byte) ((value >> 16) & 0xFF),
-                (byte) ((value >> 8) & 0xFF),
+                (byte) ((value >> 16) & 0xFF), //falta un >
+                (byte) ((value >> 8) & 0xFF), //falta un >
                 (byte) (value & 0xFF)
             };
         }

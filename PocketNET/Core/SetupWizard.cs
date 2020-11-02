@@ -74,6 +74,7 @@ namespace PocketNET.Core
             YamlConfig config = new YamlConfig(route + "server.yml");
 
             config.Set("motd", motd);
+            config.Set("ip", "0.0.0.0");
             config.Set("port", port);
             config.Set("max-players", players);
 

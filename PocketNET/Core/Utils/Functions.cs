@@ -24,5 +24,12 @@ namespace PocketNET.Core.Utils
 
             return dest;
         }
+
+        public static long TripleShift(long n, int s)
+        {
+            if (n >= 0)
+                return n >> s;
+            return (n >> s) + (2 << ~s);
+        }
     }
 }
